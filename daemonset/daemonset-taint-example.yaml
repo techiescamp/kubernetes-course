@@ -16,7 +16,7 @@ spec:
     spec:
       tolerations:
       - key: app
-        value: monitoring
+        value: fluentd-logging
         operator: Equal
         effect: NoExecute
       containers:
